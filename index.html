@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../additions/styles.css">
+        
+        <link rel="stylesheet" href="styles/mainStyles.css">
+        <script src="scripts/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div id="boxes">
+                <div id="nums" class="box active">
+                    <div class="innerbox">
+                        0-9
+                    </div>
+                </div>
+                <div id="littleEng" class="box active">
+                    <div class="innerbox">
+                        a-z
+                    </div>
+                </div>
+                <div id="bigEng" class="box passive">
+                    <div class="innerbox">
+                        A-Z
+                    </div>
+                </div>
+                <div id="littleRus" class="box passive">
+                    <div class="innerbox">
+                        а-я
+                    </div>
+                </div>
+                <div id="bigRus" class="box passive">
+                    <div class="innerbox">
+                        А-Я
+                    </div>
+                </div>
+                <div id="classicSymbs" class="box passive">
+                    <div class="innerbox">
+                        !#$%
+                    </div>
+                </div>
+                <div id="symbs" class="box passive">
+                    <div id = "userSymbs" class="innerbox">
+                        <input id="userSymbsText" type="text" maxlength="100" value="" class="innerbox">
+                    </div>
+                </div>
+            </div>
+            <div id="length">
+                <div id="countDown">
+                    –
+                </div>
+                <div id="countNum">
+                    8
+                </div>
+                <div id="countUp">
+                    +
+                </div>
+                <div id="reGen">
+                    ↻
+                </div>
+                <div id="copyPass">
+    
+                </div>
+            </div>
+            <div id="gen">
+                <textarea id="outPass" readonly rows="1" cols="9">
+                </textarea>
+            </div>
+
+        </div>
+        <script src="../additions/menu.js"></script>
+        <script src="scripts/mainScript.js"></script>
+    </body>
+</html>

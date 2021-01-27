@@ -1,0 +1,131 @@
+html, body {
+    margin: 0px;
+}
+#content {
+    margin-top: 50px;
+}
+#length {
+    margin: 10px auto 0px auto;
+    display:table;
+}
+#countDown{
+    display:inline-block;
+    font-size:26px;
+    background-color: #f1f0f0;
+    width:30px;
+    height:30px;
+    text-align:center;
+    border-radius:15px;
+}
+#countNum {
+    display:inline-block;
+    margin: 0px 5px;
+    font-size:20px;
+    color:green;
+}
+#countUp {
+    display:inline-block;
+    font-size:26px;
+    background-color: #f1f0f0;
+    width:30px;
+    height:30px;
+    text-align:center;
+    border-radius:15px;
+}
+#boxes {
+    display:table;
+    margin: 5px auto;
+}
+
+.box {
+    display: block;
+    margin: 5px;
+    border-radius: 10px;
+    float:left;
+}
+
+.active {
+    background-color:#48ca2a;
+}
+
+.passive {
+    background-color: #256b67;
+}
+.active, .passive {
+    color:#ffffff;
+}
+.active:hover, .passive:hover {
+    color: #f59209;
+}
+#userSymbsText:hover {
+    outline: 1px solid #f59209;
+}
+.innerbox {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.innerbox {
+    pointer-events:none;
+}
+
+#gen {
+    margin: 0px auto;
+    display:table;
+}
+
+#reGen{
+    display:inline-block;
+    font-size: 30px;
+    margin-left:40px;
+    margin-right:5px;
+    color:#afafaf;
+}
+#outPass{
+    display:inline-block;
+    margin: 0px 20px;
+    font-size:24px;
+    color:#f59209;
+    border:none;
+    resize:none;
+}
+#outPass:focus{
+    outline:none;
+}
+#copyPass {
+    background:url(../images/file2.png);
+    height:24px;
+    width:24px;
+    display:inline-block;
+}
+
+#reGen, #boxes, #length {
+    user-select:none;
+}
+
+#symbs input{
+    height:14px;
+    padding:0px;
+    margin: 0px 20px;
+    width:100px;
+    text-align: left;
+}
+
+#userSymbsText {
+    display:block;
+    pointer-events:all;
+    border:none;
+}
+
+#userSymbsText:focus {
+    outline:none;
+}
+
+#countUp:hover, #countDown:hover, #reGen:hover {
+    color:#f59209;
+}
+
+#copyPass:hover {
+    background:url(../images/file3.png);
+}

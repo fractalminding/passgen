@@ -1,0 +1,28 @@
+#randomButton {
+    user-select: none;
+    background-color: #3891dd;
+    //display: table;
+    color: white;
+    padding: 5px;
+    //margin: 5px auto;
+    text-align:center;
+}
+
+#form {
+    display: table;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 20px
+}
+
+#min, #max {
+    border: none;
+    background-color:orange;
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#result {
+    color: orange;
+}
